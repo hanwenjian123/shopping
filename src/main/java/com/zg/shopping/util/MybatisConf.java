@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.Properties;
 
+
 /**
  * Created by ${hanwenjian} on 2017/8/25.
  * 注册MyBatis分页插件PageHelper
@@ -21,6 +22,8 @@ public class MybatisConf {
         p.setProperty("rowBoundsWithCount", "true");
         p.setProperty("reasonable", "true");
         pageHelper.setProperties(p);
+        System.out.println("-------");
         return pageHelper;
     }
+
 }

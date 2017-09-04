@@ -8,6 +8,7 @@ import lombok.Data;
  */
 @Data
 public class Goods {
+
     private int gsid;//商品表主键
     private String goodsname;//商品名称
     private double goodsMoney;//商品价格
